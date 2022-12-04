@@ -1,0 +1,81 @@
+.store .head .remove-all,
+.store .cards .card .info .remove {
+  color: #795548;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.store .cards {
+  margin-top: 2rem;
+}
+.store .cards .card {
+  margin-bottom: 2rem;
+  border: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row !important;
+  padding: 2rem 1rem;
+}
+.store .cards .card img {
+  max-width: 4rem;
+  max-height: 4rem;
+  width: 100%;
+}
+.store .cards .card .sum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.store .cards .card .sum .negative,
+.store .cards .card .sum .positive {
+  color: #222;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.store .cards .card .sum .num {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.store .cards .card .info{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+}
+.store .cards .card .info .price{
+  font-size:1.4rem;
+  font-weight: bold;
+}
+.store .cards .card .info .remove{
+  font-size: 1rem;
+}
+.store .total{
+  width:100%;
+  border-top:1px solid #ccc;
+  padding:2rem 0;
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap:2rem;
+}
+.store .total div{
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+.store .total div .length{
+  font-size:1rem;
+  color:#795548;
+  text-align: center;
+}
